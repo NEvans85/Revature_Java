@@ -1,0 +1,9 @@
+
+public class Assinment6 {
+	public static void main(String[] args) {
+		String s ="Hello my name is Java";
+		int space1 = s.indexOf(' ');
+		int space2 = s.substring(space1).indexOf(' ');
+		System.out.println(space1+space2+1);
+	}
+}
